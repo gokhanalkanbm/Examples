@@ -20,20 +20,9 @@ namespace AutoFacExample
         {
 
             //Ioc
-            //Autofac için, yeni bir container oluşturuyoruz
             ContainerBuilder builder = new ContainerBuilder();
-            /*
-             * Controller sınıflarının constructer metotlarına
-             * injection yapılabilmesi için builder nesnesi register ediyoruz.    
-             */
             builder.RegisterControllers(Assembly.GetExecutingAssembly());
-
-            //Sıra servisleri register yapmakta. Burada istediğiniz interface ile 
-            // onu gerçekleyen sınıfıları arasında register işlemi yapabilirsiniz.
             builder.RegisterType<UserService>().As<IUserService>();
-
-            //builder nesnesini build edip son olarak varsayılan resolver olarak 
-            //ayarlıyoruz. Kısaca kullanımı Asp.Net MVC için açmış oluyoruz.
             Autofac.IContainer container = builder.Build();
             DependencyResolver.SetResolver(new AutofacDependencyResolver(container));
 
