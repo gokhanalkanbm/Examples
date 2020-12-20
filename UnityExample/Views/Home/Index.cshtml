@@ -1,0 +1,19 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+@model IEnumerable<UnityService.Person>
+
+
+    <div class="row">
+        <div class="col-md-4">
+            <p>Use this area to provide additional information.</p>
+            <h2>
+                @foreach (var i in Model)
+                {
+                    <a>@i.Name @i.Surname</a>
+                }
+            </h2>
+
+        </div>
+        
+    </div>

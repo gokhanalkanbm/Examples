@@ -5,7 +5,11 @@ VisualStudioVersion = 16.0.30320.27
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoFacExample", "AutoFacExample\AutoFacExample.csproj", "{6AFDEA7C-6B8B-493B-AF42-F502EFD5AC29}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoFacService", "AutoFacService\AutoFacService.csproj", "{B1703309-D381-4144-B0DB-733AFFE873E1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutoFacService", "AutoFacService\AutoFacService.csproj", "{B1703309-D381-4144-B0DB-733AFFE873E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityService", "UnityService\UnityService.csproj", "{212FF7C9-C2E9-4B31-85D8-C1A21801D1E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityExample", "UnityExample\UnityExample.csproj", "{F5FD364F-00BD-4F45-8D0B-98FF9AF0BDD0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{B1703309-D381-4144-B0DB-733AFFE873E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B1703309-D381-4144-B0DB-733AFFE873E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B1703309-D381-4144-B0DB-733AFFE873E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{212FF7C9-C2E9-4B31-85D8-C1A21801D1E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{212FF7C9-C2E9-4B31-85D8-C1A21801D1E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{212FF7C9-C2E9-4B31-85D8-C1A21801D1E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{212FF7C9-C2E9-4B31-85D8-C1A21801D1E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5FD364F-00BD-4F45-8D0B-98FF9AF0BDD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5FD364F-00BD-4F45-8D0B-98FF9AF0BDD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5FD364F-00BD-4F45-8D0B-98FF9AF0BDD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5FD364F-00BD-4F45-8D0B-98FF9AF0BDD0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
